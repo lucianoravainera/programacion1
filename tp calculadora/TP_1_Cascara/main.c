@@ -27,18 +27,18 @@ int main()
         {
             case 1:
                 printf("Ingrese el numero: ");
-                scanf("%d ",&numeroUno);
+                scanf("%d",&numeroUno);
                 break;
             case 2:
                 printf("Ingrese el numero: ");
-                scanf("%d ",&numeroDos);
+                scanf("%d",&numeroDos);
                 break;
             case 3:
                 suma=numeroUno + numeroDos;
-                printf("la suma es: &d\n",suma);
+                printf("la suma es: %d\n",suma);
                 break;
             case 4:
-                resta=numeroUno+numeroDos;
+                resta=numeroUno - numeroDos;
                 printf("La resta es: %d\n",resta);
                 break;
             case 5:
@@ -46,8 +46,12 @@ int main()
                 printf("La division es: %f\n",division);
                 break;
             case 6:
-                multiplicacion=numeroUno*numeroDos;
-                printf("La multiplicacion de los numeros es: %d",multiplicacion);
+                while(numeroDos==0)
+                 {
+                    printf("No se puede dividir por 0\n");
+                 }
+                 multiplicacion=numeroUno*numeroDos;
+                printf("La multiplicacion de los numeros es: %d\n",multiplicacion);
                 break;
             case 7:
                 break;

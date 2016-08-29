@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1472512429 source:d:\ravainera\asas\prueba funciones\pruebafunciones\funciones.c
+	"funciones.h"
+
+1472512195 d:\ravainera\asas\prueba funciones\pruebafunciones\funciones.h
+
+1472512550 source:d:\ravainera\asas\prueba funciones\pruebafunciones\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
