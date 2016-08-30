@@ -6,8 +6,7 @@ int main()
 {
     char seguir='s';
     int opcion=0;
-    int numeroUno,numeroDos,suma,resta,multiplicacion;
-    float division;
+    float numeroUno,numeroDos,suma,resta,multiplicacion,division;
 
     while(seguir=='s')
     {
@@ -26,20 +25,20 @@ int main()
         switch(opcion)
         {
             case 1:
-                printf("Ingrese el numero: ");
-                scanf("%d",&numeroUno);
+                printf("Ingrese el primer numero(A): ");
+                scanf("%f",&numeroUno);
                 break;
             case 2:
-                printf("Ingrese el numero: ");
-                scanf("%d",&numeroDos);
+                printf("Ingrese el segundo numero(B): ");
+                scanf("%f",&numeroDos);
                 break;
             case 3:
                 suma=numeroUno + numeroDos;
-                printf("la suma es: %d\n",suma);
+                printf("la suma es: %f\n",suma);
                 break;
             case 4:
                 resta=numeroUno - numeroDos;
-                printf("La resta es: %d\n",resta);
+                printf("La resta es: %f\n",resta);
                 break;
             case 5:
                 division=numeroUno/numeroDos;
@@ -51,7 +50,7 @@ int main()
                     printf("No se puede dividir por 0\n");
                  }
                  multiplicacion=numeroUno*numeroDos;
-                printf("La multiplicacion de los numeros es: %d\n",multiplicacion);
+                printf("La multiplicacion de los numeros es: %f\n",multiplicacion);
                 break;
             case 7:
                 break;
