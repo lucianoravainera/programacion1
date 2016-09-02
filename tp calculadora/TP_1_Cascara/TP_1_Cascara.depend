@@ -16,3 +16,13 @@
 1472515473 source:d:\ravainera\asas\tp calculadora\tp_1_cascara\funciones.c
 	"funciones.h"
 
+1472846723 source:d:\utn\tecnicatura programacion\prog1\tp calculadora\tp_1_cascara\funciones.c
+	"funciones.h"
+
+1472846532 d:\utn\tecnicatura programacion\prog1\tp calculadora\tp_1_cascara\funciones.h
+
+1472846581 source:d:\utn\tecnicatura programacion\prog1\tp calculadora\tp_1_cascara\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+

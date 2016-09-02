@@ -5,11 +5,15 @@
 int main()
 {
     char seguir='s';
-    int opcion=0;
+    int opcion=0,desde,hasta;
     float numeroUno,numeroDos,suma,resta,multiplicacion,division;
+    char menuTexto[] = "1- Ingresar 1er operando (A=x)\n2- Ingresar 2do operando (B=y)\n3- Calcular la suma (A+B)\n4- Calcular la resta (A-B)\n5- Calcular la division (A/B)\n6- Calcular la multiplicacion (A*B)\n7- Calcular el factorial (A!)\n8- Calcular todas las operacione\n9- Salir\n";
+    char error[]="Error Opcion Invalida\n";
+    int menu (char menuTexto[],char error,int desde,int hasta);
 
     while(seguir=='s')
     {
+        /*
         printf("1- Ingresar 1er operando (A=x)\n");
         printf("2- Ingresar 2do operando (B=y)\n");
         printf("3- Calcular la suma (A+B)\n");
@@ -18,7 +22,7 @@ int main()
         printf("6- Calcular la multiplicacion (A*B)\n");
         printf("7- Calcular el factorial (A!)\n");
         printf("8- Calcular todas las operacione\n");
-        printf("9- Salir\n");
+        printf("9- Salir\n");*/
 
         scanf("%d",&opcion);
 
