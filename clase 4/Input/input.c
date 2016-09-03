@@ -18,6 +18,7 @@ int getInt(int* input,char message[],char eMessage[], int lowLimit, int hiLimit)
     //leer el numero auxiliar
     //verificar si pude guardar el numero si scanf lo guardo o no
     //si scanf guardo, verificar el rango (si esta en rango guardar dato en el puntero)
+    //validar con IF
 
     int auxiliar;
     int scanfNumero;
