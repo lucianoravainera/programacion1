@@ -28,7 +28,8 @@ int getInt(int* input,char message[],char eMessage[], int lowLimit, int hiLimit)
 
 
     //*input = 44;
-    return 0;
+    return 0; //devolver si esta bien
+    // si esta mal devolver -1
 }
 
 /**
