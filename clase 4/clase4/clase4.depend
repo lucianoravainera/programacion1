@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1472857101 source:d:\ravainera\prog1\clase 4\clase4\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<ctype.h>
+
+1472857071 source:d:\ravainera\prog1\clase 4\clase4\factorial.c
+	<stdio.h>
+	<stdlib.h>
+
