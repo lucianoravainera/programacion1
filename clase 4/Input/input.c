@@ -23,13 +23,20 @@ int getInt(int* input,char message[],char eMessage[], int lowLimit, int hiLimit)
     int auxiliar;
     int scanfNumero;
     printf("%s",message);
-    scanf("%d",&auxiliar);
+    scanfNumero =scanf("%d",&auxiliar);
+    if(scanfNumero==0||auxiliar<lowLimit||auxiliar>hiLimit)
+        {
+        printf("%s",eMessage);
+        return -1;
+        }
+    else {
+        *input=auxiliar;
+        return 0;
+        }
 
-
-
-
+    //*input=auxiliar;
     //*input = 44;
-    return 0; //devolver si esta bien
+    //return 0; //devolver si esta bien
     // si esta mal devolver -1
 }
 
@@ -45,13 +52,22 @@ int getInt(int* input,char message[],char eMessage[], int lowLimit, int hiLimit)
 */
 int getFloat(float* input,char message[],char eMessage[], float lowLimit, float hiLimit)
 {
-    //.........
-    //.........
-    //.........
-    //.........
+    float auxiliar;
+    int scanfNumero;
+    printf("%s",message);
+    scanfNumero =scanf("%f",&auxiliar);
+    if(scanfNumero==0||auxiliar<lowLimit||auxiliar>hiLimit)
+        {
+        printf("%s",eMessage);
+        return -1;
+        }
+    else {
+        *input=auxiliar;
+        return 0;
+        }
 
-    *input = 1234.88;
-    return 0;
+    //*input = 1234.88;
+    //return 0;
 }
 
 

@@ -13,7 +13,7 @@ int main()
 
 
     // EJEMPLO DE USO DE getInt
-    r = getInt(&edad,"¿Cual es tu edad?","Rango valido [0 - 100]",1,100);
+    r = getInt(&edad,"¿Cual es tu edad?","Rango valido [1 - 100]",1,100);
     if(r == 0)
         printf("\nLa edad es: %d\n",edad);
 
