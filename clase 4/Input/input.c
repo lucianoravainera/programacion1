@@ -83,12 +83,9 @@ int getFloat(float* input,char message[],char eMessage[], float lowLimit, float 
 */
 int getChar(char* input,char message[],char eMessage[], char lowLimit, char hiLimit)
 {
-    //.........
-    //.........
-    //.........
-    //.........
 
-    *input = 'S';
+
+    //*input = 'S';
     return 0;
 }
 

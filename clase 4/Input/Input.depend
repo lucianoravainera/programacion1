@@ -35,3 +35,10 @@
 	<stdlib.h>
 	<string.h>
 
+1473111196 source:d:\ravainera\clase 4\input\main.c
+	<stdio.h>
+	<stdlib.h>
+	"inc/input.h"
+
+1473111196 d:\ravainera\clase 4\input\inc\input.h
+
