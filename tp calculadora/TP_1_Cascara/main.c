@@ -5,60 +5,53 @@
 int main()
 {
     char seguir='s';
-    int opcion=0,desde,hasta;
-    float numeroUno,numeroDos,suma,resta,multiplicacion,division;
-    char menuTexto[] = "1- Ingresar 1er operando (A=x)\n2- Ingresar 2do operando (B=y)\n3- Calcular la suma (A+B)\n4- Calcular la resta (A-B)\n5- Calcular la division (A/B)\n6- Calcular la multiplicacion (A*B)\n7- Calcular el factorial (A!)\n8- Calcular todas las operacione\n9- Salir\n";
-    char error[]="Error Opcion Invalida\n";
-    int menu (char menuTexto[],char error,int desde,int hasta);
+    int opcion=0;
+    float numeroUno=0,numeroDos=0;
+
+        char menuTexto [] = "3- Calcular la suma (A+B)\n4- Calcular la resta (A-B)\n5- Calcular la division (A/B)\n6- Calcular la multiplicacion (A*B)\n7- Calcular el factorial (A!)\n8- Calcular todas las operaciones\n9- Salir\n";
+        char errorTexto [] = "Opcion Invalida.";
+        int desde =1,hasta=9;
 
     while(seguir=='s')
     {
-        /*
-        printf("1- Ingresar 1er operando (A=x)\n");
-        printf("2- Ingresar 2do operando (B=y)\n");
-        printf("3- Calcular la suma (A+B)\n");
-        printf("4- Calcular la resta (A-B)\n");
-        printf("5- Calcular la division (A/B)\n");
-        printf("6- Calcular la multiplicacion (A*B)\n");
-        printf("7- Calcular el factorial (A!)\n");
-        printf("8- Calcular todas las operacione\n");
-        printf("9- Salir\n");*/
-
-        scanf("%d",&opcion);
-
+        system("cls");
+        fflush(stdin);
+        opcion = menu (numeroUno,numeroDos,menuTexto,errorTexto,desde,hasta);
         switch(opcion)
         {
             case 1:
-                printf("Ingrese el primer numero(A): ");
-                scanf("%f",&numeroUno);
+               getFloat(&numeroUno);
                 break;
-            case 2:
-                printf("Ingrese el segundo numero(B): ");
-                scanf("%f",&numeroDos);
+            case 2:;
+                getFloat(&numeroDos);
                 break;
             case 3:
-                suma=numeroUno + numeroDos;
-                printf("la suma es: %f\n",suma);
+                suma(numeroUno,numeroDos);
+                getch ()!='\n';
                 break;
             case 4:
-                resta=numeroUno - numeroDos;
-                printf("La resta es: %f\n",resta);
+                resta(numeroUno,numeroDos);
+                getch ()!='\n';
                 break;
             case 5:
-                division=numeroUno/numeroDos;
-                printf("La division es: %f\n",division);
+                division(numeroUno,numeroDos);
+                getch ()!='\n';
                 break;
             case 6:
-                while(numeroDos==0)
-                 {
-                    printf("No se puede dividir por 0\n");
-                 }
-                 multiplicacion=numeroUno*numeroDos;
-                printf("La multiplicacion de los numeros es: %f\n",multiplicacion);
+                multiplicacion(numeroUno,numeroDos);
+                getch ()!='\n';
                 break;
             case 7:
+               mostrarFact(numeroUno);
+                getch ()!='\n';
                 break;
             case 8:
+                suma(numeroUno,numeroDos);
+                resta(numeroUno,numeroDos);
+                division(numeroUno,numeroDos);
+                multiplicacion(numeroUno,numeroDos);
+                mostrarFact(numeroUno);
+                getch ()!='\n';
                 break;
             case 9:
                 seguir = 'n';
