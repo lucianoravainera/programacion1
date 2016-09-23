@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1474673720 source:d:\ravainera\prog1\tp2\main.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<conio.h>
+	"funciones.h"
+
+1474672550 d:\ravainera\prog1\tp2\funciones.h
+
