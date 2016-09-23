@@ -11,8 +11,6 @@ typedef struct {
 }EPersona;
 
 /** \brief muestra el menu de opciones
- * \param numeroUno es el valor del primer operando para mostrar en el menu
- * \param numeroDos es el valor del segundo operando para mostrar en el menu
  * \param menuTexto es el texto del menu a ser mostrado
  * \param errorTexto es el mensaje de error a ser mostrado
  * \param desde limite inferior a validar
