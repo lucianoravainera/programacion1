@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1474322006 source:c:\users\alumno.lab4pc\desktop\m\19 09 16 parcial 3\funciones.c
+
+1474322006 source:c:\users\alumno\downloads\19 09 16 parcial 3\19 09 16 parcial 3\funciones.c
+
+1474676431 source:c:\users\alumno\downloads\19 09 16 parcial 3\19 09 16 parcial 3\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	<ctype.h>
+
