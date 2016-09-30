@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1475276441 source:d:\ravainera\prog1\practica primer parcial\practica primer parcial\funciones.c
+	"funciones.h"
+
+1475276752 source:d:\ravainera\prog1\practica primer parcial\practica primer parcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1475276024 d:\ravainera\prog1\practica primer parcial\practica primer parcial\funciones.h
+
